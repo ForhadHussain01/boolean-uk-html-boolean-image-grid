@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+}
+.header {
+   display: grid;
+   background-color: #011534;
+  
+}
+
+.container {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, 250px);
+    grid-auto-rows: auto;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+} 
+
+
+.header img {
+    width: 50px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 1fr auto auto;
+   
+    grid-gap: 5x;
+    border: 1px solid black;
+    border-radius: 20px ;
+}
+.card img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.card p {
+    max-width: 90%;
+    text-align: center;
+}
+
+
+.footer {
+    display: grid;
+    background-color: #011534;
+    color: white;
+    padding: 10px;
+    
+
+}
