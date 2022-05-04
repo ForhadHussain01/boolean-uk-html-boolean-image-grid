@@ -22,8 +22,8 @@
     grid-auto-rows: auto;
     gap: 10px;
     width: 100%;
-    padding: 10px;
-} 
+   
+}
 
 
 
@@ -34,6 +34,7 @@
     grid-gap: 5x;
     border: 1px solid black;
     border-radius: 10px ;
+    padding-bottom: 10px;
 }
 .card img {
     width: 100%;
@@ -45,11 +46,42 @@
 }
 
 
+.card .media-icons {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: end;
+  column-gap: 0.5rem;
+  padding: 15px;
+  list-style-type: none;
+}
+
 .footer {
     display: grid;
     background-color: #011534;
     color: white;
     padding: 10px;
-    
+    width: 100%;
 
 }
+
+/* @media screen and (max-width: 880px) {
+    .container {
+      grid-template:
+        "top-bar top-bar" 50px
+        "left-menu emails" 1fr /
+        220px 1fr;
+    }
+  
+    .settings,
+    .shortcuts {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    .container {
+      grid-template:
+        "top-bar top-bar" 50px
+        "left-menu emails" 1fr /
+        80px 1fr;
+    } */
