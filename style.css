@@ -4,7 +4,16 @@
 .header {
    display: grid;
    background-color: #011534;
-  
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
+
+.header img {
+    width: 50px;
+}
+.hero img {
+    width: 100%;
 }
 
 .container {
@@ -17,9 +26,6 @@
 } 
 
 
-.header img {
-    width: 50px;
-}
 
 .card {
     display: grid;
@@ -27,11 +33,11 @@
    
     grid-gap: 5x;
     border: 1px solid black;
-    border-radius: 20px ;
+    border-radius: 10px ;
 }
 .card img {
     width: 100%;
-    border-radius: 20px 20px 0 0;
+    border-radius: 10px 10px 0 0;
 }
 .card p {
     max-width: 90%;
